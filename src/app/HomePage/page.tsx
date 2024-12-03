@@ -16,7 +16,7 @@ import { MdInsertPhoto } from 'react-icons/md';
 const HomePage = () => {
   return (
     <div className='bg-gray-100 m-[0px_5%]  pt-3'>
-      <div className='MainContainer bg-gray-100   w-[73rem] min-h-[45rem]    grid grid-cols-[22%_49%_24.3%] gap-[1rem_2rem] grid-rows-[9rem_23rem_minmax(14rem,1fr)]'>
+      <div className='MainContainer bg-gray-100   w-[73rem] min-h-[45rem]    grid grid-cols-[22%_49%_24.3%] gap-[1rem_2rem] grid-rows-[9rem_23rem_minmax(14rem1fr)]'>
 
 
         <div className='box box1  rounded-lg  border-2 border-black text-[2rem]  row-[1/3] relative z-[10] overflow-hidden'>
@@ -48,7 +48,7 @@ const HomePage = () => {
           <p>Refine your sales pipeline          </p>
           <div className='flex items-center gap-2'>
           <RiCheckboxBlankFill className='text-[19px] mt-[7px] text-yellow-500'/>
-          <h1 className='text-[14px] font-bold text-black mt-2'>Sales Nav for PKR0, try now</h1>
+          <h1 className='text-[14px] font-bold text-black mt-2'>Sales Nav for PKR0 try now</h1>
           </div>
         </div>
         <div className='border-b-[1px]  border-[#00000048] mt-5'></div>
@@ -154,7 +154,7 @@ const HomePage = () => {
               </div>
               <div>
             <h1 className='text-[15px] font-bold'>Muhammad Bilal</h1>
-           <h2 className='text-gray-600'>Full Stack Developer | Expertise in MERN Stack, Next.js.....</h2> 
+           <h2 className='text-gray-600'>Full Stack Developer | Expertise in MERN Stack Next.js.....</h2> 
             <p>Karachi Division</p>
               </div>
 
@@ -170,7 +170,7 @@ const HomePage = () => {
 
         <p className='text-[14px] mt-3 p-[0px_1rem]'>🚀 Elevating JavaScript: Embrace the Evolution from Try/Catch to ?= Operator! 🚀</p>
 
-        <p className='text-[14px] mt-3 p-[0px_1rem]'>As developers, we continuously seek to simplify and optimize our code. The transformation in how we handle data fetching in JavaScript serves as a perfect example of coding evolution.</p>
+        <p className='text-[14px] mt-3 p-[0px_1rem]'>As developers we continuously seek to simplify and optimize our code. The transformation in how we handle data fetching in JavaScript serves as a perfect example of coding evolution.</p>
 
           <Image src='/images/bilallink.jpg' alt='user' width={600} height={600} className='mt-7'/>
 
@@ -185,7 +185,7 @@ const HomePage = () => {
               <div>
             <h1 className='text-[15px] font-bold'>Ali Aftab Sheikh</h1>
            <h2 className='text-gray-600'>
-            Helping You Build Fast, Secure and Scalable Web Apps .....
+            Helping You Build Fast Secure and Scalable Web Apps .....
              </h2> 
             <p>Karachi Division</p>
               </div>
@@ -198,7 +198,7 @@ const HomePage = () => {
             <IoMdClose />
             </div>
           </div>
-        <p className='text-[14px]  p-[0px_1rem]'>The 2nd position was secured by Samia Salman, who has a background in Electronics and Robotics. What stood out is the diverse range of profiles among the top 13 students, showcasing the breadth of talent in our program.......        </p>
+        <p className='text-[14px]  p-[0px_1rem]'>The 2nd position was secured by Samia Salman who has a background in Electronics and Robotics. What stood out is the diverse range of profiles among the top 13 students showcasing the breadth of talent in our program.......        </p>
 
 
 
@@ -214,7 +214,7 @@ const HomePage = () => {
               </div>
               <div>
             <h1 className='text-[15px] font-bold'>Hamza Ahmed Sheikh </h1>
-           <h2 className='text-gray-600'>Helping you in developing Fast, Secure, and Scalable Web....</h2> 
+           <h2 className='text-gray-600'>Helping you in developing Fast Secure and Scalable Web....</h2> 
             <p>Karachi Division</p>
               </div>
 
@@ -226,7 +226,7 @@ const HomePage = () => {
             <IoMdClose />
             </div>
           </div>
-        <p className='text-[14px]  p-[0px_1rem]'>𝗔𝗿𝗲 𝘆𝗼𝘂 𝗰𝘂𝗿𝗶𝗼𝘂𝘀 𝗮𝗯𝗼𝘂𝘁 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗲𝘆 𝘄𝗼𝗿𝗸, 𝗯𝘂𝘁 𝗱𝗼𝗻'𝘁 𝗸𝗻𝗼𝘄 𝗵𝗼𝘄 𝘁𝗼 𝗦𝗧𝗔𝗥𝗧? 🎯        </p>
+        <p className='text-[14px]  p-[0px_1rem]'>𝗔𝗿𝗲 𝘆𝗼𝘂 𝗰𝘂𝗿𝗶𝗼𝘂𝘀 𝗮𝗯𝗼𝘂𝘁 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗲𝘆 𝘄𝗼𝗿𝗸 𝗯𝘂𝘁 𝗱𝗼𝗻'𝘁 𝗸𝗻𝗼𝘄 𝗵𝗼𝘄 𝘁𝗼 𝗦𝗧𝗔𝗥𝗧? 🎯        </p>
 
           <Image src='/images/hamza image.jpg' alt='user' width={600} height={600} className='mt-7'/>
 
@@ -240,7 +240,7 @@ const HomePage = () => {
               </div>
               <div>
             <h1 className='text-[15px] font-bold'>Ali Jawwad </h1>
-           <h2 className='text-gray-600'>Full Stack Developer | Next js, Typescript, Python, OpenAI.....</h2> 
+           <h2 className='text-gray-600'>Full Stack Developer | Next js Typescript Python OpenAI.....</h2> 
             <p>Karachi Division</p>
               </div>
 
@@ -308,10 +308,10 @@ const HomePage = () => {
             <IoMdClose />
             </div>
           </div>
-        <p className='text-[14px]  p-[0px_1rem]'>Alhamdulillah, This message made my day ♥️ <br />
+        <p className='text-[14px]  p-[0px_1rem]'>Alhamdulillah This message made my day ♥️ <br />
         <br />
 
-You don't have to become like I was in my early days. If I say I want to become someone else, I might lose what I have and own......
+You don't have to become like I was in my early days. If I say I want to become someone else I might lose what I have and own......
 
 </p>
 
@@ -327,7 +327,7 @@ You don't have to become like I was in my early days. If I say I want to become 
               </div>
               <div>
             <h1 className='text-[15px] font-bold'>Muhammad Bilal</h1>
-           <h2 className='text-gray-600'>Full Stack Developer | Expertise in MERN Stack, Next.js.....</h2> 
+           <h2 className='text-gray-600'>Full Stack Developer | Expertise in MERN Stack Next.js.....</h2> 
             <p>Karachi Division</p>
               </div>
 
@@ -343,7 +343,7 @@ You don't have to become like I was in my early days. If I say I want to become 
 
         <p className='text-[14px] mt-3 p-[0px_1rem]'>🚀 Elevating JavaScript: Embrace the Evolution from Try/Catch to ?= Operator! 🚀</p>
 
-        <p className='text-[14px] mt-3 p-[0px_1rem]'>As developers, we continuously seek to simplify and optimize our code. The transformation in how we handle data fetching in JavaScript serves as a perfect example of coding evolution.</p>
+        <p className='text-[14px] mt-3 p-[0px_1rem]'>As developers we continuously seek to simplify and optimize our code. The transformation in how we handle data fetching in JavaScript serves as a perfect example of coding evolution.</p>
 
           <Image src='/images/bilallink.jpg' alt='user' width={600} height={600} className='mt-7'/>
 
@@ -356,7 +356,7 @@ You don't have to become like I was in my early days. If I say I want to become 
               </div>
               <div>
             <h1 className='text-[15px] font-bold'>Muhammad Bilal</h1>
-           <h2 className='text-gray-600'>Full Stack Developer | Expertise in MERN Stack, Next.js.....</h2> 
+           <h2 className='text-gray-600'>Full Stack Developer | Expertise in MERN Stack Next.js.....</h2> 
             <p>Karachi Division</p>
               </div>
 
@@ -372,7 +372,7 @@ You don't have to become like I was in my early days. If I say I want to become 
 
         <p className='text-[14px] mt-3 p-[0px_1rem]'>🚀 Elevating JavaScript: Embrace the Evolution from Try/Catch to ?= Operator! 🚀</p>
 
-        <p className='text-[14px] mt-3 p-[0px_1rem]'>As developers, we continuously seek to simplify and optimize our code. The transformation in how we handle data fetching in JavaScript serves as a perfect example of coding evolution.</p>
+        <p className='text-[14px] mt-3 p-[0px_1rem]'>As developers we continuously seek to simplify and optimize our code. The transformation in how we handle data fetching in JavaScript serves as a perfect example of coding evolution.</p>
 
           <Image src='/images/bilallink.jpg' alt='user' width={600} height={600} className='mt-7'/>
 
@@ -385,7 +385,7 @@ You don't have to become like I was in my early days. If I say I want to become 
               </div>
               <div>
             <h1 className='text-[15px] font-bold'>Muhammad Bilal</h1>
-           <h2 className='text-gray-600'>Full Stack Developer | Expertise in MERN Stack, Next.js.....</h2> 
+           <h2 className='text-gray-600'>Full Stack Developer | Expertise in MERN Stack Next.js.....</h2> 
             <p>Karachi Division</p>
               </div>
 
@@ -401,7 +401,7 @@ You don't have to become like I was in my early days. If I say I want to become 
 
         <p className='text-[14px] mt-3 p-[0px_1rem]'>🚀 Elevating JavaScript: Embrace the Evolution from Try/Catch to ?= Operator! 🚀</p>
 
-        <p className='text-[14px] mt-3 p-[0px_1rem]'>As developers, we continuously seek to simplify and optimize our code. The transformation in how we handle data fetching in JavaScript serves as a perfect example of coding evolution.</p>
+        <p className='text-[14px] mt-3 p-[0px_1rem]'>As developers we continuously seek to simplify and optimize our code. The transformation in how we handle data fetching in JavaScript serves as a perfect example of coding evolution.</p>
 
           <Image src='/images/bilallink.jpg' alt='user' width={600} height={600} className='mt-7'/>
 
@@ -414,7 +414,7 @@ You don't have to become like I was in my early days. If I say I want to become 
               </div>
               <div>
             <h1 className='text-[15px] font-bold'>Muhammad Bilal</h1>
-           <h2 className='text-gray-600'>Full Stack Developer | Expertise in MERN Stack, Next.js.....</h2> 
+           <h2 className='text-gray-600'>Full Stack Developer | Expertise in MERN Stack Next.js.....</h2> 
             <p>Karachi Division</p>
               </div>
 
@@ -430,7 +430,7 @@ You don't have to become like I was in my early days. If I say I want to become 
 
         <p className='text-[14px] mt-3 p-[0px_1rem]'>🚀 Elevating JavaScript: Embrace the Evolution from Try/Catch to ?= Operator! 🚀</p>
 
-        <p className='text-[14px] mt-3 p-[0px_1rem]'>As developers, we continuously seek to simplify and optimize our code. The transformation in how we handle data fetching in JavaScript serves as a perfect example of coding evolution.</p>
+        <p className='text-[14px] mt-3 p-[0px_1rem]'>As developers we continuously seek to simplify and optimize our code. The transformation in how we handle data fetching in JavaScript serves as a perfect example of coding evolution.</p>
 
           <Image src='/images/bilallink.jpg' alt='user' width={600} height={600} className='mt-7'/>
 
